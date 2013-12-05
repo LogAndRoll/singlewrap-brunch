@@ -9,7 +9,7 @@ Or, do manual install:
 * Add `"singlewrap-brunch": "1.0.0"` to `package.json` of your brunch app.
   Pick a plugin version that corresponds to your minor (y) brunch version.
 * If you want to use git version of plugin, add
-`"singlewrap-brunch": "git+ssh://git@github.com:brunch/singlewrap-brunch.git"`.
+`"singlewrap-brunch": "git://github.com/LogAndRoll/singlewrap-brunch.git"`.
 
 ## License
 
