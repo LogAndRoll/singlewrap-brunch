@@ -1,6 +1,5 @@
 ## singlewrap-brunch
-Brunch.io plugin to wrap entire set of JavaScript in a single self-executing function
-[brunch](http://brunch.io).
+[Brunch.io](http://brunch.io) plugin to wrap entire set of JavaScript in a single self-executing function.
 
 ## Usage
 Install the plugin via npm with `npm install --save singlewrap-brunch`.
