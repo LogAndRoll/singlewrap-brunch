@@ -1,0 +1,22 @@
+{
+  "name": "singlewrap-brunch",
+  "version": "1.0.0",
+  "description": "Brunch.io plugin to wrap entire set of JavaScript in a single self-executing function",
+  "author": "Paul Miller (http://paulmillr.com/)",
+  "homepage": "https://github.com/brunch/singlewrap-brunch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brunch/singlewrap-brunch.git"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/",
+    "test": "node_modules/.bin/mocha --require test/common.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "1.11.0",
+    "chai": "1.7.0"
+  }
+}
