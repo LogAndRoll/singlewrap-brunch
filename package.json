@@ -1,12 +1,12 @@
 {
   "name": "singlewrap-brunch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Brunch.io plugin to wrap entire set of JavaScript in a single self-executing function",
-  "author": "Paul Miller (http://paulmillr.com/)",
-  "homepage": "https://github.com/brunch/singlewrap-brunch",
+  "author": "Peter Willemsen <peter@codebuffet.co>",
+  "homepage": "https://github.com/LogAndRoll/singlewrap-brunch",
   "repository": {
     "type": "git",
-    "url": "git@github.com:brunch/singlewrap-brunch.git"
+    "url": "https://github.com/LogAndRoll/singlewrap-brunch.git"
   },
   "main": "./lib/index",
   "scripts": {
